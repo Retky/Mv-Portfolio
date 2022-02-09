@@ -15,7 +15,7 @@ header {
   align-items: baseline;
 }
 
-.clock {
+#clock {
   width: 54px;
   color: #fff;
   font-size: 14px;
@@ -33,4 +33,18 @@ header {
 h1 {
   color: #fff;
   font-size: 18px;
+  line-height: 24px;
+}
+
+main{
+  background-color: #1c1a19;
+  height: 590px;
+  display: flex;
+}
+
+#intro{
+  color: #ff6b00;
+  font-family: "Crete Round";
+  font-size: 56px;
+  line-height: 64px;
 }
