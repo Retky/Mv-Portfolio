@@ -48,14 +48,23 @@ main {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round";
+  font-family: "Crete Round", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 56px;
   line-height: 64px;
 }
 
 #enphasis {
+  margin: 12px 0;
   color: #fff5e1;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
+}
+
+#landingText {
+  margin: 0;
+  color: #fff;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
