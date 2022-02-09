@@ -6,14 +6,16 @@ header{
   background-color: #3C3A39;
 }
 .statusBar{
-  border: solid cyan;
-  /* ^ Only for test ^ */
   height: 44px;
-  padding: 13px;
+  padding: 0 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .clock{
   width: 54px;
   color: #FFFFFF;
+  font-size: 14px;
   text-align: center;
 }
 .toolBar{
