@@ -19,7 +19,8 @@ header{
   text-align: center;
 }
 .toolBar{
-  padding: 24px;
+  height: 48px;
+  padding: 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -27,10 +28,4 @@ header{
 h1{
   color: #FFFFFF;
   font-size: 18px;
-}
-nav {
-  border: solid goldenrod;
-  /* ^ Only for test ^ */
-  width: 18px;
-  height: 12px;
 }
