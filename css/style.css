@@ -36,15 +36,26 @@ h1 {
   line-height: 24px;
 }
 
-main{
+main {
   background-color: #1c1a19;
   height: 590px;
+  padding: 24px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#intro{
+#intro {
+  margin: 0;
   color: #ff6b00;
   font-family: "Crete Round";
   font-size: 56px;
   line-height: 64px;
+}
+
+#enphasis {
+  color: #fff5e1;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
 }
