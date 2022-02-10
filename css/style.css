@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background-color: #3c3a39;
+  height: 5vh;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.toolBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#logo {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+#landing {
+  background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
+  height: 95vh;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro {
+  margin: 0;
+  color: #ff6b00;
+  font-family: "Crete Round", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+#enphasis {
+  margin: 12px 0;
+  color: #fff5e1;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#landingText {
+  margin: 0;
+  color: #fff;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#socialMedia {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.socialIco {
+  width: 40px;
+  height: 40px;
+}
