@@ -26,7 +26,7 @@ header {
   line-height: 24px;
 }
 
-main {
+#landing {
   background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
   height: 95vh;
   padding: 0 24px;
@@ -60,7 +60,9 @@ main {
 }
 
 #socialMedia {
-  margin-top: 12px;
+  display: flex;
+  padding: 0;
+  list-style: none;
 }
 
 .socialIco {
