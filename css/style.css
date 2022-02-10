@@ -1,7 +1,10 @@
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Inter', "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 24px;
 }
+
+/* ↓HEADER↓ */
 
 header {
   background-color: #3c3a39;
@@ -12,7 +15,7 @@ header {
   justify-content: flex-end;
 }
 
-.toolBar {
+#toolBar {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -21,10 +24,13 @@ header {
 #logo {
   margin-bottom: 5px;
   color: #fff;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
   line-height: 24px;
 }
+
+/* ↓LANDING SECTION↓ */
 
 #landing {
   background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
@@ -56,7 +62,6 @@ header {
   color: #fff;
   font-family: "Poppins", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 24px;
 }
 
 #socialMedia {
@@ -69,3 +74,5 @@ header {
   width: 40px;
   height: 40px;
 }
+
+/* ↓WORKS↓ */
