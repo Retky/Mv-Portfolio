@@ -5,39 +5,30 @@ body {
 
 header {
   background-color: #3c3a39;
-  height: 15vh;
-}
-
-.statusBar {
-  padding: 0 13px;
+  height: 5vh;
+  padding: 0 24px;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-#clock {
-  width: 54px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .toolBar {
-  padding: 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-h1 {
+#logo {
+  margin-bottom: 5px;
   color: #fff;
   font-size: 18px;
+  text-decoration: none;
   line-height: 24px;
 }
 
 main {
   background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
-  height: 85vh;
+  height: 95vh;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
