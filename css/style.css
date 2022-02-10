@@ -1,7 +1,17 @@
 body {
   margin: 0;
-  font-family: 'Inter', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Inter', Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
   line-height: 24px;
+}
+
+body h2,
+body h3 {
+  font-family: 'Crete Round', Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+}
+
+body h3 {
+  font-size: 32px;
+  line-height: 44px;
 }
 
 /* ↓HEADER↓ */
@@ -44,7 +54,7 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Crete Round", Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -81,4 +91,15 @@ header {
   display: grid;
   grid-template-columns: 24px 1fr 24px;
   grid-template-rows: 307px 95vh repeat(1, 410px);
+  /* ↑repeat(n++, ) for ea workItem.↑ */
+}
+
+#contTitle {
+  grid-column: 2/3;
+  align-self: center;
+  text-align: center;
+  font-size: 40px;
+  line-height: 52px;
+  padding-bottom: 24px;
+  border-bottom: solid #212121 1px;
 }
