@@ -76,3 +76,9 @@ header {
 }
 
 /* ↓WORKS↓ */
+
+#pageContent {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  grid-template-rows: 307px 95vh repeat(1, 410px);
+}
