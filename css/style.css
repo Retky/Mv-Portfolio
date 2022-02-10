@@ -36,7 +36,7 @@ h1 {
 }
 
 main {
-  background-color: #1c1a19;
+  background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
   height: 85vh;
   padding: 0 24px;
   display: flex;
