@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Inter', Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+  font-family: 'Inter', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
   line-height: 24px;
 }
 
 body h2,
 body h3 {
-  font-family: 'Crete Round', Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+  font-family: 'Crete Round', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
   margin: 0;
 }
 
@@ -55,7 +55,7 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -92,6 +92,7 @@ header {
   display: grid;
   grid-template-columns: 24px 1fr 24px;
   grid-template-rows: 307px 95vh repeat(6, 410px);
+
   /* ↑repeat(n++, ) for ea workItem.↑ */
 }
 
@@ -110,7 +111,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #091E42;
+  color: #091e42;
 }
 
 #featImg {
@@ -129,14 +130,14 @@ header {
 
 .featLang {
   padding: 10px 12px;
-  border: solid #8993A4 1px;
+  border: solid #8993a4 1px;
   font-size: 15px;
   line-height: 20px;
 }
 
 #seeFeat {
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   font-size: 17px;
   font-weight: bold;
@@ -165,7 +166,7 @@ header {
 
 .seeWork {
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   font-size: 17px;
   font-weight: bold;
@@ -193,14 +194,14 @@ header {
   align-self: center;
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
   font-size: 72px;
   line-height: 88px;
 }
 
 #resume {
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   font-size: 17px;
   font-weight: bold;
@@ -232,9 +233,11 @@ header {
 #profLanguage {
   list-style-image: url("../img/Bullet01.png");
 }
+
 #profFrame {
   list-style-image: url("../img/Bullet02.png");
 }
+
 #profSkills {
   list-style-image: url("../img/Bullet03.png");
 }
