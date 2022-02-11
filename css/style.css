@@ -1,7 +1,21 @@
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Inter', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  line-height: 24px;
 }
+
+body h2,
+body h3 {
+  font-family: 'Crete Round', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  margin: 0;
+}
+
+body h3 {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+/* ↓HEADER↓ */
 
 header {
   background-color: #3c3a39;
@@ -12,7 +26,7 @@ header {
   justify-content: flex-end;
 }
 
-.toolBar {
+#toolBar {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -21,10 +35,13 @@ header {
 #logo {
   margin-bottom: 5px;
   color: #fff;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
   line-height: 24px;
 }
+
+/* ↓LANDING SECTION↓ */
 
 #landing {
   background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
@@ -38,7 +55,7 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -56,7 +73,6 @@ header {
   color: #fff;
   font-family: "Poppins", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 24px;
 }
 
 #socialMedia {
@@ -68,4 +84,160 @@ header {
 .socialIco {
   width: 40px;
   height: 40px;
+}
+
+/* ↓WORKS↓ */
+
+#pageContent {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  grid-template-rows: 307px 95vh repeat(6, 410px);
+
+  /* ↑repeat(n++, ) for ea workItem.↑ */
+}
+
+#contTitle {
+  grid-column: 2/3;
+  align-self: center;
+  text-align: center;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 48px 0;
+  border-bottom: solid #212121 1px;
+}
+
+#featured {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #091e42;
+}
+
+#featImg {
+  width: 327px;
+  height: 237px;
+}
+
+.languages {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin: 0;
+}
+
+.featLang {
+  padding: 10px 12px;
+  border: solid #8993a4 1px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#seeFeat {
+  border: none;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 12px;
+  width: 124px;
+}
+
+.work {
+  margin-top: 24px;
+  padding: 0 16px;
+  grid-column: 2/3;
+  background: url("../img/WorkPlaceholder.png");
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lang {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.seeWork {
+  border: none;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 12px;
+  margin: 22px -16px 0;
+}
+
+#about {
+  background: #1c1a19;
+}
+
+#me {
+  background: no-repeat bottom right url("../img/AboutIllustration.png");
+  height: 95vh;
+  margin-top: 120px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f4f5f7;
+}
+
+#meTitle {
+  align-self: center;
+  margin: 0;
+  color: #ff6b00;
+  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+#resume {
+  border: none;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 12px;
+  width: 161px;
+}
+
+#proficiency {
+  margin: 0 24px;
+  padding: 130px 0;
+  border-top: solid #fff 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f5f7;
+}
+
+.prof {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.prof li {
+  margin: 32px;
+}
+
+#profLanguage {
+  list-style-image: url("../img/Bullet01.png");
+}
+
+#profFrame {
+  list-style-image: url("../img/Bullet02.png");
+}
+
+#profSkills {
+  list-style-image: url("../img/Bullet03.png");
 }
