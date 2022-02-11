@@ -100,6 +100,45 @@ header {
   text-align: center;
   font-size: 40px;
   line-height: 52px;
-  padding-bottom: 24px;
+  padding: 0;
   border-bottom: solid #212121 1px;
+}
+
+#featured {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #091E42;
+}
+
+#featImg {
+  width: 327px;
+  height: 237px;
+}
+
+#featLang {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.lang {
+  padding: 10px 12px;
+  border: solid #8993A4 1px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#seeFeat {
+  border: none;
+  background: #FF6B00;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 12px;
+  width: 124px;
 }
