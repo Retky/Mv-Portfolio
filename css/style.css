@@ -7,6 +7,7 @@ body {
 body h2,
 body h3 {
   font-family: 'Crete Round', Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+  margin: 0;
 }
 
 body h3 {
@@ -90,7 +91,7 @@ header {
 #pageContent {
   display: grid;
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 307px 95vh repeat(1, 410px);
+  grid-template-rows: 307px 95vh repeat(6, 410px);
   /* ↑repeat(n++, ) for ea workItem.↑ */
 }
 
@@ -100,7 +101,7 @@ header {
   text-align: center;
   font-size: 40px;
   line-height: 52px;
-  padding: 0;
+  padding: 48px 0;
   border-bottom: solid #212121 1px;
 }
 
@@ -117,15 +118,16 @@ header {
   height: 237px;
 }
 
-#featLang {
+.languages {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: flex-start;
   gap: 12px;
+  margin: 0;
 }
 
-.lang {
+.featLang {
   padding: 10px 12px;
   border: solid #8993A4 1px;
   font-size: 15px;
@@ -141,4 +143,33 @@ header {
   line-height: 24px;
   padding: 12px;
   width: 124px;
+}
+
+.work {
+  margin-top: 24px;
+  padding: 0 16px;
+  grid-column: 2/3;
+  background: url("../img/WorkPlaceholder.png");
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lang {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.seeWork {
+  border: none;
+  background: #FF6B00;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 12px;
+  margin: 22px -16px 0;
 }
