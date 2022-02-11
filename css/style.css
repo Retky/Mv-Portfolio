@@ -173,3 +173,68 @@ header {
   padding: 12px;
   margin: 22px -16px 0;
 }
+
+#about {
+  background: #1c1a19;
+}
+
+#me {
+  background: no-repeat bottom right url("../img/AboutIllustration.png");
+  height: 95vh;
+  margin-top: 120px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f4f5f7;
+}
+
+#meTitle {
+  align-self: center;
+  margin: 0;
+  color: #ff6b00;
+  font-family: "Crete Round", Palatino, 'Palatino Linotype','Palatino LTSTD', Georgia, serif;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+#resume {
+  border: none;
+  background: #FF6B00;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 12px;
+  width: 161px;
+}
+
+#proficiency {
+  margin: 0 24px;
+  padding: 130px 0;
+  border-top: solid #fff 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f5f7;
+}
+
+.prof {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.prof li {
+  margin: 32px;
+}
+
+#profLanguage {
+  list-style-image: url("../img/Bullet01.png");
+}
+#profFrame {
+  list-style-image: url("../img/Bullet02.png");
+}
+#profSkills {
+  list-style-image: url("../img/Bullet03.png");
+}
