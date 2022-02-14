@@ -122,8 +122,7 @@ header {
 .languages {
   list-style: none;
   padding: 0;
-  /* display: flex; */
-  float: left;
+  display: inline-block;
   /* justify-content: flex-start; */
   gap: 12px;
   margin: 0;
@@ -132,9 +131,9 @@ header {
 .featLang {
   padding: 10px 12px;
   border: solid #8993a4 1px;
-  float: inline;
-  height: 1rem;
-  width: 2rem;
+  float: left;
+  /* height: 1rem;
+  width: 2rem; */
   font-size: 15px;
   line-height: 20px;
 }
