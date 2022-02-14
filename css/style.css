@@ -1,12 +1,14 @@
 body {
   margin: 0;
-  font-family: 'Inter', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Inter", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia,
+    serif;
   line-height: 24px;
 }
 
 body h2,
 body h3 {
-  font-family: 'Crete Round', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
+    Georgia, serif;
   margin: 0;
 }
 
@@ -35,7 +37,7 @@ header {
 #logo {
   margin-bottom: 5px;
   color: #fff;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
   line-height: 24px;
@@ -55,7 +57,8 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
+    Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -136,6 +139,7 @@ header {
   width: 2rem; */
   font-size: 15px;
   line-height: 20px;
+  margin-right: 16px;
 }
 
 #seeFeat {
@@ -165,6 +169,8 @@ header {
   background: rgba(255, 255, 255, 0.24);
   font-size: 15px;
   line-height: 20px;
+  float: left;
+  margin-right: 16px;
 }
 
 .seeWork {
@@ -197,7 +203,8 @@ header {
   align-self: center;
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
+    Georgia, serif;
   font-size: 72px;
   line-height: 88px;
 }
