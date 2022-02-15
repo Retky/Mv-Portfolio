@@ -1,12 +1,14 @@
 body {
   margin: 0;
-  font-family: 'Inter', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Inter", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia,
+    serif;
   line-height: 24px;
 }
 
 body h2,
 body h3 {
-  font-family: 'Crete Round', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
+    Georgia, serif;
   margin: 0;
 }
 
@@ -35,7 +37,7 @@ header {
 #logo {
   margin-bottom: 5px;
   color: #fff;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
   line-height: 24px;
@@ -55,7 +57,8 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
+    Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -196,7 +199,8 @@ header {
   align-self: center;
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
+    Georgia, serif;
   font-size: 72px;
   line-height: 88px;
 }
@@ -249,4 +253,21 @@ header {
 footer {
   height: 95vh;
   padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90vw;
+}
+
+footer h3 {
+  color: #172b4d;
+  padding-top: 120px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-btn {
 }
