@@ -5,7 +5,7 @@
 > Following the template of Microverse-Student-project-1, found at Figma.
 
 ## Live Preview
-[![Preview](img\Preview.gif)](https://retky.github.io/Retky-Portfolio/)
+[![Preview](./img/Preview.gif)](https://retky.github.io/Retky-Portfolio/)
 
 ## Built With
 
