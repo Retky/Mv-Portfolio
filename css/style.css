@@ -269,5 +269,25 @@ footer h3 {
   flex-direction: column;
 }
 
+input {
+  border-style: none;
+  border-bottom: solid #eee 1px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100px;
+  border-style: none;
+}
+
 .footer-btn {
+  margin: 5% 30%;
+  border-style: none;
+  padding: 10px 6px;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 30px;
+  color: #fff;
+  background-color: #ff6b00;
 }
