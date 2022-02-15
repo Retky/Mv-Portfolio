@@ -245,3 +245,8 @@ header {
 #profSkills {
   list-style-image: url("../img/Bullet03.png");
 }
+
+footer {
+  height: 95vh;
+  padding: 0 24px;
+}
