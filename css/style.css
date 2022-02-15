@@ -1,14 +1,12 @@
 body {
   margin: 0;
-  font-family: "Inter", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia,
-    serif;
+  font-family: "Inter", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   line-height: 24px;
 }
 
 body h2,
 body h3 {
-  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
-    Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   margin: 0;
 }
 
@@ -57,8 +55,7 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
-    Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -199,8 +196,7 @@ header {
   align-self: center;
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD",
-    Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   font-size: 72px;
   line-height: 88px;
 }
@@ -261,27 +257,30 @@ footer {
 
 footer h3 {
   color: #172b4d;
+  font-weight: 700;
+  font-size: 32px;
   padding-top: 120px;
 }
 
-.form {
+#form {
   display: flex;
   flex-direction: column;
 }
 
-input {
+.textInput {
   border-style: none;
   border-bottom: solid #eee 1px;
   padding: 10px 10px;
   margin-bottom: 15px;
 }
 
-textarea {
+#message {
   height: 100px;
   border-style: none;
+  background: #fbf8f7;
 }
 
-.footer-btn {
+.footerBtn {
   margin: 5% 30%;
   border-style: none;
   padding: 10px 6px;
