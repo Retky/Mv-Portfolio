@@ -179,6 +179,8 @@ header {
   background: #1c1a19;
 }
 
+/* ↓ABOUT↓ */
+
 #me {
   background: no-repeat bottom right url("../img/AboutIllustration.png");
   height: 95vh;
@@ -209,6 +211,8 @@ header {
   padding: 12px;
   width: 161px;
 }
+
+/* ↓PROFICIENCY↓ */
 
 #proficiency {
   margin: 0 24px;
