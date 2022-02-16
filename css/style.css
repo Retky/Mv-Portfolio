@@ -246,22 +246,22 @@ header {
   list-style-image: url("../img/Bullet03.png");
 }
 
-footer {
+/* ↓CONTACT↓ */
+
+#contact {
   height: 95vh;
+  margin-top: 120px;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: space-between;
 }
 
-/* ↓CONTACT↓ */
-
-footer h3 {
+#contact h3 {
   color: #172b4d;
   font-family: "Inter", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   font-weight: 700;
   font-size: 32px;
-  padding-top: 120px;
   text-align: center;
 }
 
@@ -293,6 +293,30 @@ footer h3 {
   line-height: 24px;
   color: #fff;
   background-color: #ff6b00;
+}
+
+/* ↓SOCIAL B MEDIA↓ */
+
+footer {
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#socialBMedia {
+  width: 100%;
+  border-top: solid #dfe1e6 1px;
+  padding: 25px 0 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#endLine {
+  margin: 0 0 8px;
+  width: 134px;
+  height: 5px;
 }
 
 /* ↓BUTTONS STYLE↓ */
