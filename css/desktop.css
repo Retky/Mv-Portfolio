@@ -1,6 +1,6 @@
 /* ↓HEADER↓ */
 header {
-  padding: 0 10vw;
+  padding: 0 12vw 0 10vw;
   height: 8vh;
 }
 
@@ -26,12 +26,12 @@ header {
   align-items: center;
   justify-content: flex-start;
   padding: 0;
-  background: no-repeat  right url("../img/AboutDesktop.png") #1c1a19;
-  background-size: 35vw auto;
+  background: no-repeat  right url("../img/IllustrationDesktop.png") #1c1a19;
+  background-size: 40vw auto;
 }
 
 #landingText {
-  width: 566px;
+  padding-right: 45vw;
 }
 
 #socialMedia {
@@ -54,6 +54,11 @@ header {
   /* ↑repeat(n++, ) for ea workItem.↑ */
 }
 
+#contTitle{
+  grid-column: 1/2;
+  border:none;
+}
+
 #featured {
   grid-column: 1/4;
   flex-direction: row;
@@ -67,4 +72,17 @@ header {
 
 .work {
   grid-column: span 1;
+}
+
+/* ↓ABOUT↓ */
+#me {
+  background: no-repeat right url("../img/AboutDesktop.png");
+  background-size: 40vw auto;
+  padding: 0 45vw 0 10vw;
+}
+
+#proficiency {
+  padding: 50px 10vw;
+  flex-direction: row;
+  justify-content: space-between;
 }
