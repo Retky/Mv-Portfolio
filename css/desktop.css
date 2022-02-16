@@ -93,3 +93,23 @@ header {
 #endLine {
   display: none;
 }
+
+#contact {
+  height: auto;
+  flex-direction: row;
+  padding: 0 10vw;
+  gap: 24px;
+}
+
+#contact h3 {
+  width: 40vw;
+  text-align: left;
+}
+
+#form {
+  width: 50vw;
+}
+
+.contactBtn {
+  align-self: flex-start;
+}
