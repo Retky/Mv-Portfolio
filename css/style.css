@@ -18,9 +18,10 @@ body h3 {
 /* ↓HEADER↓ */
 
 header {
+  position: fixed;
+  width: 100%;
   background-color: #3c3a39;
   height: 5vh;
-  padding: 0 24px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
