@@ -29,7 +29,8 @@ header {
 
 #toolBar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 50vw;
   align-items: baseline;
 }
 

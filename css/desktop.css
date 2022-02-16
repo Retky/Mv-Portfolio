@@ -1,0 +1,20 @@
+
+/* ↓LANDING SECTION↓ */
+
+#landing {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: no-repeat  right url("../img/AboutDesktop.png") #1c1a19;
+  background-size: 35vw auto;
+}
+
+#landingText {
+  width: 566px;
+}
+
+#socialMedia {
+  order: -1;
+  flex-direction: column;
+  margin-right: 87px;
+}
