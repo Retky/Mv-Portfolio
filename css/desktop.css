@@ -1,3 +1,19 @@
+/* ↓HEADER↓ */
+
+#menuBar {
+  display: none;
+}
+
+#deskMenu {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+#deskMenu a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* ↓LANDING SECTION↓ */
 
@@ -14,7 +30,7 @@
 }
 
 #socialMedia {
+  width: 10vw;
   order: -1;
   flex-direction: column;
-  margin-right: 87px;
 }
