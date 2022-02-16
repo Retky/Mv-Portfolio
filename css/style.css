@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Inter', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Inter", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   line-height: 24px;
 }
 
 body h2,
 body h3 {
-  font-family: 'Crete Round', Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   margin: 0;
 }
 
@@ -35,7 +35,7 @@ header {
 #logo {
   margin-bottom: 5px;
   color: #fff;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
   line-height: 24px;
@@ -55,7 +55,7 @@ header {
 #intro {
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   font-size: 56px;
   line-height: 64px;
 }
@@ -196,7 +196,7 @@ header {
   align-self: center;
   margin: 0;
   color: #ff6b00;
-  font-family: "Crete Round", Palatino, 'Palatino Linotype', 'Palatino LTSTD', Georgia, serif;
+  font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   font-size: 72px;
   line-height: 88px;
 }
@@ -244,4 +244,49 @@ header {
 
 #profSkills {
   list-style-image: url("../img/Bullet03.png");
+}
+
+footer {
+  height: 95vh;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90vw;
+}
+
+footer h3 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 120px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.textInput {
+  border-style: none;
+  border-bottom: solid #eee 1px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+
+#message {
+  height: 100px;
+  border-style: none;
+  background: #fbf8f7;
+}
+
+.footerBtn {
+  margin: 5% 30%;
+  border-style: none;
+  padding: 10px 6px;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 30px;
+  color: #fff;
+  background-color: #ff6b00;
 }
