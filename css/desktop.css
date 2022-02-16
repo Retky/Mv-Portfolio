@@ -1,4 +1,8 @@
 /* ↓HEADER↓ */
+header {
+  padding: 0 10vw;
+  height: 8vh;
+}
 
 #menuBar {
   display: none;
@@ -21,6 +25,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  padding: 0;
   background: no-repeat  right url("../img/AboutDesktop.png") #1c1a19;
   background-size: 35vw auto;
 }
@@ -31,6 +36,8 @@
 
 #socialMedia {
   width: 10vw;
+  box-sizing: border-box;
+  padding: 36px;
   order: -1;
   flex-direction: column;
 }

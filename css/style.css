@@ -18,20 +18,17 @@ body h3 {
 /* ↓HEADER↓ */
 
 header {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 1vh 24px 0;
   position: fixed;
-  width: 100%;
   background-color: #3c3a39;
   height: 5vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
 }
 
 #toolBar {
   display: flex;
-  justify-content: space-around;
-  gap: 50vw;
+  justify-content: space-between;
   align-items: baseline;
 }
 
