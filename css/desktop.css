@@ -54,9 +54,9 @@ header {
   /* ↑repeat(n++, ) for ea workItem.↑ */
 }
 
-#contTitle{
+#contTitle {
   grid-column: 1/2;
-  border:none;
+  border: none;
 }
 
 #featured {
@@ -75,6 +75,7 @@ header {
 }
 
 /* ↓ABOUT↓ */
+
 #me {
   background: no-repeat right url("../img/AboutDesktop.png");
   background-size: 40vw auto;
@@ -85,4 +86,10 @@ header {
   padding: 50px 10vw;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/* ↓CONTACT↓ */
+
+#endLine {
+  display: none;
 }
