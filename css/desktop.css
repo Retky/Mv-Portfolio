@@ -41,3 +41,30 @@ header {
   order: -1;
   flex-direction: column;
 }
+
+/* ↓WORKS↓ */
+
+#pageContent {
+  display: grid;
+  margin: 0 10vw;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 307px 1fr repeat(2, 410px);
+  gap: 24px;
+
+  /* ↑repeat(n++, ) for ea workItem.↑ */
+}
+
+#featured {
+  grid-column: 1/4;
+  flex-direction: row;
+  gap: 24px;
+}
+
+#featImg {
+  min-width: 420px;
+  min-height: 305px;
+}
+
+.work {
+  grid-column: span 1;
+}

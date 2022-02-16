@@ -140,6 +140,7 @@ header {
 }
 
 .seeFeat {
+  margin-top: 24px;
   border: none;
   background: #ff6b00;
   color: #fff;
