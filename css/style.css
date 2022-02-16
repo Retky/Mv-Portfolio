@@ -298,18 +298,18 @@ footer h3 {
 /* ↓BUTTONS STYLE↓ */
 
 .orangeBtn:hover {
- background-color: #fff5e1;
- color: #ff6b00;
- padding: 10px;
- border: solid #f55800 2px;
+  background-color: #fff5e1;
+  color: #ff6b00;
+  padding: 10px;
+  border: solid #f55800 2px;
 }
 
 .orangeBtn:active {
- background-color: #e05304;
- color: #f4f1f0;
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .orangeBtn:disabled {
- background-color: #f4f1f0;
- color: #5b5957;
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
