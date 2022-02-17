@@ -18,13 +18,11 @@ body h3 {
 /* ↓HEADER↓ */
 
 header {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 1vh 24px 0;
   position: fixed;
-  width: 100%;
   background-color: #3c3a39;
-  height: 5vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 #toolBar {
@@ -42,11 +40,15 @@ header {
   line-height: 24px;
 }
 
+#deskMenu {
+  display: none;
+}
+
 /* ↓LANDING SECTION↓ */
 
 #landing {
   background: no-repeat bottom right url("../img/Illustration.png") #1c1a19;
-  height: 95vh;
+  height: 100vh;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
@@ -107,6 +109,10 @@ header {
   border-bottom: solid #212121 1px;
 }
 
+#deskLine {
+  display: none;
+}
+
 #featured {
   grid-column: 2/3;
   display: flex;
@@ -116,8 +122,11 @@ header {
 }
 
 #featImg {
-  width: 327px;
-  height: 237px;
+  width: 100%;
+}
+
+#featImg img {
+  width: 100%;
 }
 
 .languages {
@@ -137,6 +146,7 @@ header {
 }
 
 .seeFeat {
+  margin-top: 24px;
   border: none;
   background: #ff6b00;
   color: #fff;
@@ -152,6 +162,8 @@ header {
   padding: 0 16px;
   grid-column: 2/3;
   background: url("../img/WorkPlaceholder.png");
+  background-size: cover;
+  background-position: bottom;
   color: #fff;
   display: flex;
   flex-direction: column;
