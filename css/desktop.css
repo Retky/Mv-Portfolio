@@ -1,7 +1,6 @@
 /* ↓HEADER↓ */
 header {
   padding: 0 12vw 0 10vw;
-  height: 6vh;
 }
 
 #menuBar {
@@ -74,8 +73,7 @@ header {
 }
 
 #featImg {
-  min-width: 420px;
-  min-height: 305px;
+  width: 200%;
 }
 
 .work {
@@ -115,11 +113,6 @@ header {
   gap: 24px;
 }
 
-#contact h3 {
-  width: 35vw;
-  text-align: left;
-}
-
 #form {
   width: 60vw;
 }
@@ -145,4 +138,9 @@ header {
 .work:hover h3,
 .work:hover p {
   display: none;
+}
+
+#contact h3 {
+  width: 35vw;
+  text-align: left;
 }

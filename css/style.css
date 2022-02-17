@@ -123,8 +123,11 @@ header {
 }
 
 #featImg {
-  width: 327px;
-  height: 237px;
+  width: 100%;
+}
+
+#featImg img {
+  width: 100%;
 }
 
 .languages {
