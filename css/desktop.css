@@ -60,6 +60,13 @@ header {
   border: none;
 }
 
+#deskLine {
+  display: block;
+  grid-column: 2/4;
+  align-self: center;
+  width: 100%;
+}
+
 #featured {
   grid-column: 1/4;
   flex-direction: row;
@@ -73,6 +80,7 @@ header {
 
 .work {
   grid-column: span 1;
+  padding-bottom: 16px;
 }
 
 .seeWork {
@@ -124,6 +132,9 @@ header {
 
 .work:hover {
   background: url("../img/WorkPlaceholderSolid.png");
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 0;
 }
 
 .work:hover .seeWork {

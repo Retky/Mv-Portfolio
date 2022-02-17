@@ -110,6 +110,10 @@ header {
   border-bottom: solid #212121 1px;
 }
 
+#deskLine {
+  display: none;
+}
+
 #featured {
   grid-column: 2/3;
   display: flex;
