@@ -1,7 +1,7 @@
 /* ↓HEADER↓ */
 header {
   padding: 0 12vw 0 10vw;
-  height: 8vh;
+  height: 6vh;
 }
 
 #menuBar {
@@ -48,13 +48,14 @@ header {
   display: grid;
   margin: 0 10vw;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 307px 1fr repeat(2, 410px);
+  grid-template-rows: 307px 1fr repeat(2, 435px);
   gap: 24px;
 
   /* ↑repeat(n++, ) for ea workItem.↑ */
 }
 
 #contTitle {
+  font-size: 40px;
   grid-column: 1/2;
   border: none;
 }
@@ -74,18 +75,23 @@ header {
   grid-column: span 1;
 }
 
+.seeWork {
+  display: none;
+}
+
 /* ↓ABOUT↓ */
 
 #me {
   background: no-repeat right url("../img/AboutDesktop.png");
   background-size: 40vw auto;
-  padding: 0 45vw 0 10vw;
+  padding: 0 55vw 0 10vw;
 }
 
 #proficiency {
   padding: 50px 10vw;
   flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 /* ↓CONTACT↓ */
@@ -102,14 +108,30 @@ header {
 }
 
 #contact h3 {
-  width: 40vw;
+  width: 35vw;
   text-align: left;
 }
 
 #form {
-  width: 50vw;
+  width: 60vw;
 }
 
 .contactBtn {
   align-self: flex-start;
+}
+
+/* ↓WORKS HOVER↓ */
+
+.work:hover {
+  background: url("../img/WorkPlaceholderSolid.png");
+}
+
+.work:hover .seeWork {
+  display: block;
+}
+
+.work:hover .languages,
+.work:hover h3,
+.work:hover p {
+  display: none;
 }

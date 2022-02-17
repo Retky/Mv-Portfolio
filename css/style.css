@@ -156,6 +156,8 @@ header {
   padding: 0 16px;
   grid-column: 2/3;
   background: url("../img/WorkPlaceholder.png");
+  background-size: cover;
+  background-position: bottom;
   color: #fff;
   display: flex;
   flex-direction: column;
