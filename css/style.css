@@ -68,6 +68,21 @@ header {
   line-height: 64px;
 }
 
+#intro {
+  animation: 1s slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
 #enphasis {
   margin: 12px 0;
   color: #fff5e1;
