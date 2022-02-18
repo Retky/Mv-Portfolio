@@ -61,6 +61,19 @@ header {
   font-family: "Crete Round", Palatino, "Palatino Linotype", "Palatino LTSTD", Georgia, serif;
   font-size: 56px;
   line-height: 64px;
+  animation: 1s slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
 }
 
 #enphasis {
@@ -349,4 +362,9 @@ footer {
 .orangeBtn:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
+}
+
+#featImg:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
 }
