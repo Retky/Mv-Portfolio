@@ -272,6 +272,16 @@ header {
   list-style-image: url("../img/Bullet03.png");
 }
 
+/* ↓ACCESSIBILITY↓ */
+.orangeBtn {
+  background-color: #b84d00;
+}
+
+.work h3,
+.work p {
+  filter: invert(1);
+}
+
 /* ↓CONTACT↓ */
 
 #contact {
@@ -367,14 +377,4 @@ footer {
 #featImg:hover {
   transform: scale(1.3);
   transition: 0.5s;
-}
-
-/* ↓ACCESSIBILITY↓ */
-.orangeBtn {
-  background-color: #B84D00;
-}
-
-.work h3,
-.work p {
-  filter: invert(1);
 }
