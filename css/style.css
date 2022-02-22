@@ -272,6 +272,13 @@ header {
   list-style-image: url("../img/Bullet03.png");
 }
 
+/* ↓ACCESSIBILITY↓ */
+
+.work h3,
+.work p {
+  filter: invert(1);
+}
+
 /* ↓CONTACT↓ */
 
 #contact {
@@ -343,6 +350,10 @@ footer {
   margin: 0 0 8px;
   width: 134px;
   height: 5px;
+}
+
+.orangeBtn {
+  background-color: #b84d00;
 }
 
 /* ↓BUTTONS STYLE↓ */
