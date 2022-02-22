@@ -273,9 +273,6 @@ header {
 }
 
 /* ↓ACCESSIBILITY↓ */
-.orangeBtn {
-  background-color: #b84d00;
-}
 
 .work h3,
 .work p {
@@ -353,6 +350,10 @@ footer {
   margin: 0 0 8px;
   width: 134px;
   height: 5px;
+}
+
+.orangeBtn {
+  background-color: #b84d00;
 }
 
 /* ↓BUTTONS STYLE↓ */
