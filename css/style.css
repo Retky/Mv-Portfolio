@@ -16,6 +16,7 @@ body h3 {
 }
 
 .burguer_list {
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -25,7 +26,24 @@ body h3 {
   text-align: left;
   list-style: none;
   position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100vw;
+  height: 100vh;
   background-color: #3c3a39;
+  padding: 30px 20px;
+  transition: 0.3s;
+}
+
+.moveIn{
+  left: 0%;
+}
+
+.listItem {
+  margin: 30px 0;
+  padding: 0 20px;
+  border-bottom: solid #6F6C6B 1px;
+
 }
 
 .burguer_list li a {
