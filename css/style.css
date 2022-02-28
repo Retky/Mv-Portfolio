@@ -22,7 +22,6 @@ body h3 {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
   text-align: left;
   list-style: none;
   position: absolute;
@@ -35,15 +34,14 @@ body h3 {
   transition: 0.3s;
 }
 
-.moveIn{
+.moveIn {
   left: 0%;
 }
 
 .listItem {
   margin: 30px 0;
   padding: 0 20px;
-  border-bottom: solid #6F6C6B 1px;
-
+  border-bottom: solid #6f6c6b 1px;
 }
 
 .burguer_list li a {
