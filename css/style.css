@@ -15,6 +15,40 @@ body h3 {
   line-height: 44px;
 }
 
+.burguer_list {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c3a39;
+  padding: 30px 20px;
+  transition: 0.3s;
+}
+
+.moveIn {
+  left: 0%;
+}
+
+.listItem {
+  margin: 30px 0;
+  padding: 0 20px;
+  border-bottom: solid #6f6c6b 1px;
+}
+
+.burguer_list li a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
 /* ↓HEADER↓ */
 
 header {
@@ -274,10 +308,10 @@ header {
 
 /* ↓ACCESSIBILITY↓ */
 
-.work h3,
+/* .work h3,
 .work p {
   filter: invert(1);
-}
+} */
 
 /* ↓CONTACT↓ */
 
