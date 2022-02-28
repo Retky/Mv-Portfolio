@@ -15,6 +15,24 @@ body h3 {
   line-height: 44px;
 }
 
+.burguer_list {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style: none;
+  position: absolute;
+  background-color: #3c3a39;
+}
+
+.burguer_list li a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
 /* ↓HEADER↓ */
 
 header {
