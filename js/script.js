@@ -75,6 +75,11 @@ function project(project){
   let divDesc = document.createElement('div');
   divDesc.innerHTML = project.description;
   divBox.appendChild(divDesc);
+  // live Preview
+  const btnPreview = document.createElement('button');
+  btnPreview.href = project.live;
+  btnPreview.innerHTML = 'livePreview';
+  divBox.appendChild(btnPreview);
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
 }
