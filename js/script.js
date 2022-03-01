@@ -50,6 +50,10 @@ function project(project){
   let divBox = document.createElement('div');
   divBox.classList.add('popWindow');
   blurDiv.appendChild(divBox);
+  // TITLE
+  let projectName = document.createElement('h3');
+  projectName.innerHTML = project.name;
+  divBox.appendChild(projectName);
 
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
