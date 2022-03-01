@@ -446,6 +446,12 @@ footer {
   overflow: scroll;
 }
 
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .popBtn {
   text-decoration: none;
   border: none;

@@ -79,10 +79,14 @@ function project(project){
   image.src = project.image;
   image.style.width = '100%';
   divImg.appendChild(image);
+  // DIV (Descriptio & Buttons)
+  const divInfo = document.createElement('div');
+  divInfo.classList.add('info')
+  divBox.appendChild(divInfo);
   // DESCRIPTION
   const divDesc = document.createElement('div');
   divDesc.innerHTML = project.description;
-  divBox.appendChild(divDesc);
+  divInfo.appendChild(divDesc);
   // LIVE PREVIEW
   const btnPreview = document.createElement('a');
   btnPreview.href = project.liveSrc;
@@ -92,7 +96,7 @@ function project(project){
   const liveIco = document.createElement('img');
   liveIco.src = project.liveImg;
   btnPreview.appendChild(liveIco);
-  divBox.appendChild(btnPreview);
+  divInfo.appendChild(btnPreview);
   // SOURCE
   const btnSrc = document.createElement('a');
   btnSrc.href = project.source;
@@ -102,7 +106,7 @@ function project(project){
   const srcIco = document.createElement('img');
   liveIco.src = project.sourceImg;
   btnSrc.appendChild(liveIco);
-  divBox.appendChild(btnSrc);
+  divInfo.appendChild(btnSrc);
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
 }
