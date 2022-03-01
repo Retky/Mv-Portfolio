@@ -42,3 +42,18 @@ const projectOne = new ProjectBox(
   '#',
   'https://github.com',
 );
+
+// ↓Function to create the boxes
+function project(project){
+  let blurDiv = document.createElement('div');
+  blurDiv.classList.add('popBlur');
+  let divBox = document.createElement('div');
+  divBox.classList.add('popWindow');
+  blurDiv.appendChild(divBox);
+
+    // ↓ insert in the page
+    document.body.appendChild(blurDiv);
+}
+
+// ↓ Ejecution
+project(projectOne)
