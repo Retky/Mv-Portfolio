@@ -71,7 +71,10 @@ function project(project){
   image.src = project.image;
   image.style.width = '100%';
   divImg.appendChild(image);
-
+  //DESCRIPTION
+  let divDesc = document.createElement('div');
+  divDesc.innerHTML = project.description;
+  divBox.appendChild(divDesc);
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
 }
