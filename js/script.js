@@ -54,6 +54,16 @@ function project(project){
   let projectName = document.createElement('h3');
   projectName.innerHTML = project.name;
   divBox.appendChild(projectName);
+  // LIST
+  let techList = document.createElement('ul');
+  techList.classList.add('languages');
+  divBox.appendChild(techList);
+  project.techs.forEach((lang) => {
+    let li = document.createElement('li');
+    li.innerHTML = lang;
+    li.classList.add('featLang');
+    techList.appendChild(li);
+  });
 
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
