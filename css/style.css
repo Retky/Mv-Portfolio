@@ -413,3 +413,33 @@ footer {
   transform: scale(1.3);
   transition: 0.5s;
 }
+
+/* ↓POPUP WINDOWS↓ */
+
+.popBlur {
+  background: #ffffff10;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+.popWindow{
+  height: 90%;
+  width: 92%;
+  margin-top: 5vh;
+  margin-left: 4vw;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
