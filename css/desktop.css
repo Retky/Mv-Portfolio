@@ -144,3 +144,15 @@ header {
   width: 35vw;
   text-align: left;
 }
+
+/* POPUP WINDOWS */
+
+.popWindow {
+  height: auto;
+  overflow: inherit;
+}
+
+.divInfo {
+  display: flex;
+  gap: 20px;
+}
