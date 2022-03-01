@@ -48,14 +48,14 @@ const projectOne = new ProjectBox(
   'img/LiveIco.png',
   'See Source',
   'https://github.com',
-  'img/SrcIco.png'
+  'img/SrcIco.png',
 );
 
 // ↓Function to create the boxes
 const blurDiv = document.createElement('div');
 blurDiv.classList.add('popBlur');
 
-function project(project){
+function project(project) {
   const divBox = document.createElement('div');
   divBox.classList.add('popWindow');
   blurDiv.appendChild(divBox);
@@ -75,18 +75,18 @@ function project(project){
   });
   // DIV (Image & Info)
   const divPrj = document.createElement('div');
-  divPrj.classList.add('divInfo')
+  divPrj.classList.add('divInfo');
   divBox.appendChild(divPrj);
   // IMAGE
   const divImg = document.createElement('div');
   divPrj.appendChild(divImg);
-  const image = document.createElement('img')
+  const image = document.createElement('img');
   image.src = project.image;
   image.style.width = '100%';
   divPrj.appendChild(image);
   // DIV (Descriptio & Buttons)
   const divInfo = document.createElement('div');
-  divInfo.classList.add('info')
+  divInfo.classList.add('info');
   divPrj.appendChild(divInfo);
   // DESCRIPTION
   const divDesc = document.createElement('div');
@@ -109,8 +109,8 @@ function project(project){
   btnSrc.classList.add('orangeBtn');
   btnSrc.innerHTML = project.sourceTxt;
   const srcIco = document.createElement('img');
-  liveIco.src = project.sourceImg;
-  btnSrc.appendChild(liveIco);
+  srcIco.src = project.sourceImg;
+  btnSrc.appendChild(srcIco);
   divInfo.appendChild(btnSrc);
 
   // CLOSE ICO
@@ -132,11 +132,11 @@ project(projectOne);
 
 // ↓ Show Popup Window
 // seeFeat
-let seeProject = document.querySelector('.seeFeat');
+const seeProject = document.querySelector('.seeFeat');
 seeProject.addEventListener('click', () => {
   blurDiv.classList.add('show');
 });
-let seeWork = document.querySelectorAll('.seeWork');
+const seeWork = document.querySelectorAll('.seeWork');
 seeWork.forEach((btn) => {
   btn.addEventListener('click', () => {
     blurDiv.classList.add('show');
