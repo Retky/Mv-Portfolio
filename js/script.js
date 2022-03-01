@@ -42,7 +42,7 @@ const projectOne = new ProjectBox(
   'Multi Post Stories',
   ['html', 'Bootstrap', 'Ruby on rails'],
   'img/Snapshoot.png',
-  'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   'See Live',
   '#',
   'img/LiveIco.png',
@@ -52,9 +52,10 @@ const projectOne = new ProjectBox(
 );
 
 // ↓Function to create the boxes
+const blurDiv = document.createElement('div');
+blurDiv.classList.add('popBlur');
+
 function project(project){
-  const blurDiv = document.createElement('div');
-  blurDiv.classList.add('popBlur');
   const divBox = document.createElement('div');
   divBox.classList.add('popWindow');
   blurDiv.appendChild(divBox);
@@ -107,9 +108,27 @@ function project(project){
   liveIco.src = project.sourceImg;
   btnSrc.appendChild(liveIco);
   divInfo.appendChild(btnSrc);
-    // ↓ insert in the page
-    document.body.appendChild(blurDiv);
+
+  // CLOSE ICO
+  const close = document.createElement('img');
+  close.src = 'img/Close.png';
+  close.classList.add('closeIco');
+  divBox.appendChild(close);
+
+  // CLOSE POPUP WINDOW
+  close.addEventListener('click', () => {
+    blurDiv.classList.remove('show');
+  });
 }
+// ↓ insert in the page
+document.body.appendChild(blurDiv);
 
 // ↓ Ejecution
-project(projectOne)
+project(projectOne);
+
+// ↓ Show Popup Window
+// seeFeat
+let seeProject = document.querySelector('.seeFeat');
+seeProject.addEventListener('click', () => {
+  blurDiv.classList.add('show');
+});

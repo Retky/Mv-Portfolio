@@ -424,7 +424,7 @@ footer {
   top: 0;
   left: 0;
   backdrop-filter: blur(5px);
-  display: block;
+  display: none;
 }
 
 .show {
@@ -450,6 +450,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.closeIco {
+  position: fixed;
+  right: 8%;
+  top: 8%;
 }
 
 .popBtn {
