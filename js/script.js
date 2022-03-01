@@ -20,3 +20,15 @@ menu.addEventListener('click', () => {
 });
 
 // ↓POPUP WINDOWS↓
+
+// ↓ This is the basic Project Data Object.
+class ProjectBox {
+  constructor(name, tech, img, desc, live, src) {
+    this.name = name;
+    this.techs = tech;
+    this.image = img;
+    this.description = desc;
+    this.live = live;
+    this.source = src;
+  }
+}
