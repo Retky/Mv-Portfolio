@@ -137,3 +137,8 @@ seeProject.addEventListener('click', () => {
   blurDiv.classList.add('show');
 });
 let seeWork = document.querySelectorAll('.seeWork');
+seeWork.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    blurDiv.classList.add('show');
+  });
+});
