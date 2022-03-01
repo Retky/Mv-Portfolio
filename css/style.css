@@ -451,10 +451,10 @@ footer {
   border: none;
   background: #ff6b00;
   color: #fff;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 24px;
-  padding: 12px 20px;
+  padding: 12px;
   box-sizing: border-box;
   width: 45%;
   display: flex;

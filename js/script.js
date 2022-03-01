@@ -23,7 +23,7 @@ menu.addEventListener('click', () => {
 
 // ↓ This is the basic Project Data Object.
 class ProjectBox {
-  constructor(name, tech, img, desc, liveTxt, liveSrc, liveImg, src) {
+  constructor(name, tech, img, desc, liveTxt, liveSrc, liveImg, srcTxt, src, srcImg) {
     this.name = name;
     this.techs = tech;
     this.image = img;
@@ -31,7 +31,9 @@ class ProjectBox {
     this.liveTxt = liveTxt;
     this.liveSrc = liveSrc;
     this.liveImg = liveImg;
+    this.sourceTxt = srcTxt;
     this.source = src;
+    this.sourceImg = srcImg;
   }
 }
 
@@ -42,9 +44,11 @@ const projectOne = new ProjectBox(
   'img/Snapshoot.png',
   'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   'See Live',
-  'https://github.com',
+  '#',
   'img/LiveIco.png',
+  'See Source',
   'https://github.com',
+  'img/SrcIco.png'
 );
 
 // ↓Function to create the boxes
@@ -89,6 +93,16 @@ function project(project){
   liveIco.src = project.liveImg;
   btnPreview.appendChild(liveIco);
   divBox.appendChild(btnPreview);
+  // SOURCE
+  const btnSrc = document.createElement('a');
+  btnSrc.href = project.source;
+  btnSrc.classList.add('popBtn');
+  btnSrc.classList.add('orangeBtn');
+  btnSrc.innerHTML = project.sourceTxt;
+  const srcIco = document.createElement('img');
+  liveIco.src = project.sourceImg;
+  btnSrc.appendChild(liveIco);
+  divBox.appendChild(btnSrc);
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
 }
