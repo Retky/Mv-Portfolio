@@ -73,17 +73,21 @@ function project(project){
     li.classList.add('featLang');
     techList.appendChild(li);
   });
+  // DIV (Image & Info)
+  const divPrj = document.createElement('div');
+  divPrj.classList.add('divInfo')
+  divBox.appendChild(divPrj);
   // IMAGE
   const divImg = document.createElement('div');
-  divBox.appendChild(divImg);
+  divPrj.appendChild(divImg);
   const image = document.createElement('img')
   image.src = project.image;
   image.style.width = '100%';
-  divImg.appendChild(image);
+  divPrj.appendChild(image);
   // DIV (Descriptio & Buttons)
   const divInfo = document.createElement('div');
   divInfo.classList.add('info')
-  divBox.appendChild(divInfo);
+  divPrj.appendChild(divInfo);
   // DESCRIPTION
   const divDesc = document.createElement('div');
   divDesc.innerHTML = project.description;
@@ -132,3 +136,4 @@ let seeProject = document.querySelector('.seeFeat');
 seeProject.addEventListener('click', () => {
   blurDiv.classList.add('show');
 });
+let seeWork = document.querySelectorAll('.seeWork');
