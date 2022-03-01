@@ -64,6 +64,13 @@ function project(project){
     li.classList.add('featLang');
     techList.appendChild(li);
   });
+  // IMAGE
+  let divImg = document.createElement('div');
+  divBox.appendChild(divImg);
+  let image = document.createElement('img')
+  image.src = project.image;
+  image.style.width = '100%';
+  divImg.appendChild(image);
 
     // ↓ insert in the page
     document.body.appendChild(blurDiv);
