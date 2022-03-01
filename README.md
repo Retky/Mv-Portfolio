@@ -45,6 +45,8 @@ If you haven't yet, you should first [set up Git.](https://docs.github.com/en/ge
 - Twitter: [@RetkyFox](https://twitter.com/retkyFox "J. Luis Arredondo Twitter")
 - LinkedIn: [Retky](https://www.linkedin.com/in/Retky "J. Luis Arredondo LinkedIn")
 
+## Major Contributors
+
 👤 **Fernando Saldaña**
 - GitHub: [@fasaldana](https://github.com/fasaldana)
 - Twitter: [@Fernandosal98](https://twitter.com/Fernandosal98)
@@ -53,6 +55,18 @@ If you haven't yet, you should first [set up Git.](https://docs.github.com/en/ge
 👤 **Judá F Teixeira**
 - GitHub: [@mrjuda](https://github.com/mrjuda)
 - LinkedIn: [@judateixeira](https://www.linkedin.com/in/judateixeira)
+
+👤 **Have Samuel**
+
+- GitHub: [@githubhandle](https://github.com/Have-Samuel)
+- Twitter: [@twitterhandle](https://twitter.com/home)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/feed)
+
+👤 Oscar Bermudez
+
+- GitHub: [@githubhandle](https://github.com/zkr024)
+- Twitter: [@twitterhandle](https://twitter.com/zkr024)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/oscar-bermudez-07908222a)
 
 ## 🤝 Contributing
 
