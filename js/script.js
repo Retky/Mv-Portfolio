@@ -79,7 +79,7 @@ function project(project) {
   divBox.appendChild(divPrj);
   // IMAGE
   const divImg = document.createElement('div');
-  divImg.classList.add('divImg')
+  divImg.classList.add('divImg');
   divPrj.appendChild(divImg);
   const image = document.createElement('img');
   image.src = project.image;
@@ -148,13 +148,13 @@ seeWork.forEach((btn) => {
 // Locate te form
 const form = document.getElementById('form');
 // Locate the email
-const formEmail = form['email'];
+const formEmail = form.email;
 // Locate the message holder
 const smallMsg = document.getElementById('smallEmail');
 
 // Print the requirement
-function showMsg(){
-smallMsg.innerText = '**email has to be in lower case**'
+function showMsg() {
+  smallMsg.innerText = '**email has to be in lower case**';
 }
 // Check for lowercase
 function checkLowercase(str) {
@@ -163,10 +163,10 @@ function checkLowercase(str) {
 
 // Ejecutes when trying to submit
 form.addEventListener('submit', (event) => {
-  let validEmail = checkLowercase(formEmail.value)
+  const validEmail = checkLowercase(formEmail.value);
   // Prevent submit & show indication
   if (!validEmail) {
     event.preventDefault();
-    showMsg()
+    showMsg();
   }
-})
+});
