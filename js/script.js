@@ -82,17 +82,18 @@ function project(project) {
   divBox.appendChild(divPrj);
   // IMAGE
   const divImg = document.createElement('div');
+  divImg.classList.add('divImg');
   divPrj.appendChild(divImg);
   const image = document.createElement('img');
   image.src = project.image;
   image.style.width = '100%';
-  divPrj.appendChild(image);
+  divImg.appendChild(image);
   // DIV (Descriptio & Buttons)
   const divInfo = document.createElement('div');
   divInfo.classList.add('info');
   divPrj.appendChild(divInfo);
   // DESCRIPTION
-  const divDesc = document.createElement('div');
+  const divDesc = document.createElement('p');
   divDesc.innerHTML = project.description;
   divInfo.appendChild(divDesc);
   // LIVE PREVIEW
@@ -152,3 +153,30 @@ for (let i = 0; i < seeWork.length; i += 1) {
     blurDiv[i].classList.add('show');
   });
 }
+
+// ↓FORM VALIDATION↓
+// Locate te form
+const form = document.getElementById('form');
+// Locate the email
+const formEmail = form.email;
+// Locate the message holder
+const smallMsg = document.getElementById('smallEmail');
+
+// Print the requirement
+function showMsg() {
+  smallMsg.innerText = '**email has to be in lower case**';
+}
+// Check for lowercase
+function checkLowercase(str) {
+  return !/[A-Z]/.test(str);
+}
+
+// Ejecutes when trying to submit
+form.addEventListener('submit', (event) => {
+  const validEmail = checkLowercase(formEmail.value);
+  // Prevent submit & show indication
+  if (!validEmail) {
+    event.preventDefault();
+    showMsg();
+  }
+});

@@ -156,3 +156,7 @@ header {
   display: flex;
   gap: 20px;
 }
+
+.divImg {
+  min-width: 500px;
+}
