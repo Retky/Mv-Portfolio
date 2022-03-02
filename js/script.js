@@ -143,3 +143,8 @@ seeWork.forEach((btn) => {
     blurDiv.classList.add('show');
   });
 });
+
+const form = document.getElementById('form');
+const formEmail = form['email'];
+const smallMsg = document.getElementById('smallEmail');
+
