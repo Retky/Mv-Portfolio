@@ -148,3 +148,11 @@ const form = document.getElementById('form');
 const formEmail = form['email'];
 const smallMsg = document.getElementById('smallEmail');
 
+// Print the requirement
+function showMsg(){ 
+smallMsg.innerText = '**email has to be in lower case**'
+}
+// Check for lowercase 
+function checkLowercase(str) {
+  return !/[A-Z]/.test(str); 
+} 
