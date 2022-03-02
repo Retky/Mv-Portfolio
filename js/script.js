@@ -133,11 +133,9 @@ function project(project) {
 
 // ↓ Ejecution
 
-// projectList.forEach((project) => {
-//   project(project)
-// });
-
-project(projectOne);
+projectList.forEach((pro) => {
+  project(pro)
+});
 
 // ↓ Show Popup Window
 
