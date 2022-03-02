@@ -79,17 +79,18 @@ function project(project) {
   divBox.appendChild(divPrj);
   // IMAGE
   const divImg = document.createElement('div');
+  divImg.classList.add('divImg')
   divPrj.appendChild(divImg);
   const image = document.createElement('img');
   image.src = project.image;
   image.style.width = '100%';
-  divPrj.appendChild(image);
+  divImg.appendChild(image);
   // DIV (Descriptio & Buttons)
   const divInfo = document.createElement('div');
   divInfo.classList.add('info');
   divPrj.appendChild(divInfo);
   // DESCRIPTION
-  const divDesc = document.createElement('div');
+  const divDesc = document.createElement('p');
   divDesc.innerHTML = project.description;
   divInfo.appendChild(divDesc);
   // LIVE PREVIEW
