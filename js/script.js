@@ -55,10 +55,10 @@ const projectList = [projectOne, projectTwo, projectThree, projectFour, projectF
 
 // ↓Function to create the boxes
 
-const blurDiv = document.createElement('div');
-blurDiv.classList.add('popBlur');
-
 function project(project) {
+  const blurDiv = document.createElement('div');
+  blurDiv.classList.add('popBlur');
+
   const divBox = document.createElement('div');
   divBox.classList.add('popWindow');
   blurDiv.appendChild(divBox);
@@ -126,10 +126,10 @@ function project(project) {
   close.addEventListener('click', () => {
     blurDiv.classList.remove('show');
   });
-}
 
-// ↓ insert in the page
-document.body.appendChild(blurDiv);
+  // Insert in the page
+  document.body.appendChild(blurDiv);
+}
 
 // ↓ Ejecution
 
@@ -140,11 +140,12 @@ document.body.appendChild(blurDiv);
 project(projectOne);
 
 // ↓ Show Popup Window
+
+const blurDiv = document.querySelectorAll('.popBlur')
 // seeFeat
-// const blurDiv = document.querySelector('popBlur')
 const seeProject = document.querySelector('.seeFeat');
 seeProject.addEventListener('click', () => {
-  blurDiv.classList.add('show');
+  blurDiv[0].classList.add('show');
 });
 const seeWork = document.querySelectorAll('.seeWork');
 
