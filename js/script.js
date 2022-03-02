@@ -144,15 +144,29 @@ seeWork.forEach((btn) => {
   });
 });
 
+// ↓FORM VALIDATION↓
+// Locate te form
 const form = document.getElementById('form');
+// Locate the email
 const formEmail = form['email'];
+// Locate the message holder
 const smallMsg = document.getElementById('smallEmail');
 
 // Print the requirement
-function showMsg(){ 
+function showMsg(){
 smallMsg.innerText = '**email has to be in lower case**'
 }
-// Check for lowercase 
+// Check for lowercase
 function checkLowercase(str) {
-  return !/[A-Z]/.test(str); 
-} 
+  return !/[A-Z]/.test(str);
+}
+
+// Ejecutes when trying to submit
+form.addEventListener('submit', (event) => {
+  let validEmail = checkLowercase(formEmail.value)
+  // Prevent submit & show indication
+  if (!validEmail) {
+    event.preventDefault();
+    showMsg()
+  }
+})
