@@ -40,18 +40,18 @@ class ProjectBox {
 // ↓ This holds the data of the first project.
 const projectOne = new ProjectBox('Multi Post Stories', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
 // ↓ This holds the data of the project 2.
-const projectTwo = new ProjectBox('Multi Post Stories2', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
+const projectTwo = new ProjectBox('Multi Post Stories 2', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
 // ↓ This holds the data of the project 3.
-const projectThree = new ProjectBox('Multi Post Stories3', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
+const projectThree = new ProjectBox('Multi Post Stories 3', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
 // ↓ This holds the data of the project 4.
-const projectFour = new ProjectBox('Multi Post Stories4', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
+const projectFour = new ProjectBox('Multi Post Stories 4', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
 // ↓ This holds the data of the project 5.
-const projectFive = new ProjectBox('Multi Post Stories5', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
+const projectFive = new ProjectBox('Multi Post Stories 5', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
 // ↓ This holds the data of the project 6.
-const projectSix = new ProjectBox('Multi Post Stories6', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
+const projectSix = new ProjectBox('Multi Post Stories 6', ['html', 'Bootstrap', 'Ruby on rails'], 'img/Snapshoot.png', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'See Live', '#', 'img/LiveIco.png', 'See Source', 'https://github.com', 'img/SrcIco.png');
 
 //  ↓This array holds all the projects
-const projectList = [projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix ]
+const projectList = [projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix];
 
 // ↓Function to create the boxes
 
@@ -134,12 +134,12 @@ function project(project) {
 // ↓ Ejecution
 
 projectList.forEach((pro) => {
-  project(pro)
+  project(pro);
 });
 
 // ↓ Show Popup Window
 
-const blurDiv = document.querySelectorAll('.popBlur')
+const blurDiv = document.querySelectorAll('.popBlur');
 // seeFeat
 const seeProject = document.querySelector('.seeFeat');
 seeProject.addEventListener('click', () => {
@@ -147,13 +147,8 @@ seeProject.addEventListener('click', () => {
 });
 const seeWork = document.querySelectorAll('.seeWork');
 
-for (let i=0; i < seeWork.length; i++){
-  console.log('count');
-
+for (let i = 0; i < seeWork.length; i += 1) {
+  seeWork[i].addEventListener('click', () => {
+    blurDiv[i].classList.add('show');
+  });
 }
-
-// seeWork.forEach((btn) => {
-//   btn.addEventListener('click', () => {
-//     blurDiv.classList.add('show');
-//   });
-// });
