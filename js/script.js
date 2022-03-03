@@ -184,7 +184,8 @@ form.addEventListener('submit', (event) => {
 const formData = {};
 
 form.addEventListener('change',(event) =>{
-  
-
+  formData[event.target.name] = event.target.value;
+  let dataString = JSON.stringify(formData);
+  localStorage.setItem('formData', dataString);
 });
 
