@@ -180,3 +180,29 @@ form.addEventListener('submit', (event) => {
     showMsg();
   }
 });
+
+// ↓MAKE LOCAL STORAGE↓
+// Usin the form (l-159)
+// This holds the form data in an object
+const formData = {};
+// This listen input changes
+form.addEventListener('change', (event) => {
+  // This add the data in the object
+  formData[event.target.name] = event.target.value;
+  // This object → string
+  const dataString = JSON.stringify(formData);
+  localStorage.setItem('formData', dataString);
+});
+
+// ↓GET LOCAL STORAGE↓
+// This check for localStorage
+if (localStorage) {
+  // This hold the localStorage
+  const local = JSON.parse(localStorage.getItem('formData'));
+  // This insert the localStorage to the formData obj
+  Object.assign(formData, local);
+  // print values in the form
+  Object.keys(formData).forEach((item) => {
+    form[item].value = formData[item];
+  });
+}
