@@ -186,23 +186,23 @@ form.addEventListener('submit', (event) => {
 // This holds the form data in an object
 const formData = {};
 // This listen input changes
-form.addEventListener('change',(event) =>{
+form.addEventListener('change', (event) => {
   // This add the data in the object
   formData[event.target.name] = event.target.value;
   // This object → string
-  let dataString = JSON.stringify(formData);
+  const dataString = JSON.stringify(formData);
   localStorage.setItem('formData', dataString);
 });
 
 // ↓GET LOCAL STORAGE↓
 // This check for localStorage
-if (localStorage){
+if (localStorage) {
   // This hold the localStorage
-  let local = JSON.parse(localStorage.getItem('formData'));
+  const local = JSON.parse(localStorage.getItem('formData'));
   // This insert the localStorage to the formData obj
-  Object.assign(formData, local)
+  Object.assign(formData, local);
   // print values in the form
   Object.keys(formData).forEach((item) => {
-    form[item].value = formData[item]
+    form[item].value = formData[item];
   });
-};
+}
