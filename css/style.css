@@ -26,7 +26,7 @@ body h3 {
   list-style: none;
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -500%;
   width: 100vw;
   height: 100vh;
   background-color: #3c3a39;

@@ -163,7 +163,7 @@ const formEmail = form.email;
 const smallMsg = document.getElementById('smallEmail');
 
 // Print the requirement
-function showMsg() {
+function showMsg(caller) {
   smallMsg.innerText = '**email has to be in lower case**';
 }
 // Check for lowercase
@@ -172,15 +172,20 @@ function checkLowercase(str) {
 }
 
 // Ejecutes when trying to submit
-form.addEventListener('submit', (event) => {
+form.addEventListener('change', (event) => {
   const validEmail = checkLowercase(formEmail.value);
   // Prevent submit & show indication
   if (!validEmail) {
-    event.preventDefault();
-    showMsg();
+    showMsg(event.target.name);
+  } else {
+    smallMsg.innerText = '';
   }
 });
 
+form.addEventListener('submit', (event) => {
+  if(!checkLowercase(formEmail.value))
+  event.preventDefault();
+});
 // ↓MAKE LOCAL STORAGE↓
 // Usin the form (l-159)
 // This holds the form data in an object
