@@ -7,7 +7,7 @@
 ## Live Preview
 *Click the Image below*
 
-[![Preview](./img/Preview.gif)](https://retky.github.io/Retky-Portfolio/)
+[![Preview](./img/Preview.gif)](https://retky.github.io/Mv-Retky-Portfolio/)
 
 ## Built With
 
@@ -74,9 +74,9 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to get in touch with any issues or suggestions.
 
-- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/Retky/Retky-Portfolio/issues)
-- 💡 **Suggestions:** Use [Github Discussions](https://github.com/Retky/Retky-Portfolio/discussions)
-- 🙋‍♀️ **General questions:** Use [Github Discussions](https://github.com/Retky/Retky-Portfolio/discussions)
+- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/Retky/Mv-Retky-Portfolio/issues)
+- 💡 **Suggestions:** Use [Github Discussions](https://github.com/Retky/Mv-Retky-Portfolio/discussions)
+- 🙋‍♀️ **General questions:** Use [Github Discussions](https://github.com/Retky/Mv-Retky-Portfolio/discussions)
 
 ## Show your support
 
